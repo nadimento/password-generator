@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #1C1C1C;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+
+
+.container {
+    background: #1F2937;
+    padding: 115px 52px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.green-text {
+    color: #4ADF86;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #D5D4D8;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+button {
+    color: white;
+    padding: 9px 16px;
+    background: #10B981;
+    border: none;
+    border-radius: 5px;
+    margin-top: 51px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4bb390;
+}
+
+.password-container {
+    border-top: 1px solid #2F3E53;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-field {
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #55F991;
+    font-size: 16px;
+}
